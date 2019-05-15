@@ -1,3 +1,6 @@
+<p align="center">
+<img src="https://upload-images.jianshu.io/upload_images/1715253-c27077ff77062e8a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Pet" title="Pet" width="200"/>
+</p>
 ### 简介
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狗圈儿是一个宠物社交软件,目的是广纳狗友,深入交流,分享快乐.狗圈儿是一个包含前台和后台的完整项目,从代码编写,图形图标设计,再到部署,调试,上架发布都由本人完成,稀稀拉拉历经几个月完成.前台开发采用的是Swift编写,现在已经适配到最新的SDK版本,如果你的Xcode不是最新的请先升级到最新版本.项目已经打包发布到[**App Store**](https://itunes.apple.com/US/app/id1395622129?mt=8),App主要适配了iPhone端,iPad接口预留了,没有适配.目前[**App Store**](https://itunes.apple.com/US/app/id1395622129?mt=8)中版本是1.4.后台Web服务接口用Python语言开发,采用的是Tornado web server.数据库用的MySql和Redis缓存,server和数据库都部署在一台vps上了,资源文件托管在七牛上.
