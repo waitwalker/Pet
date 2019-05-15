@@ -14,7 +14,7 @@
 
 **如果对你有帮助,请给我一个赞或星,感谢!**
 
-先贴几张图:
+贴几张图:
 ![狗圈儿](https://upload-images.jianshu.io/upload_images/1715253-9a0046e4dc959330.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 前台
