@@ -1,0 +1,6 @@
+framework module Pods_PetGroup {
+  umbrella header "Pods-PetGroup-umbrella.h"
+
+  export *
+  module * { export * }
+}

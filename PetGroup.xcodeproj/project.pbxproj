@@ -1,0 +1,2133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB397E9DA65D63E008AB195 /* Pods_PetGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E426CCC1531DB137182960 /* Pods_PetGroup.framework */; };
+		1A1CBDC121048A54000894DF /* MTTUIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CBDC021048A54000894DF /* MTTUIViewControllerExtension.swift */; };
+		1A1CBDC92104C167000894DF /* MTTUINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1CBDC82104C167000894DF /* MTTUINavigationControllerExtension.swift */; };
+		1A29DE51212C446E00B7A098 /* MTTPetGroupCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29DE50212C446E00B7A098 /* MTTPetGroupCardCell.swift */; };
+		1A29DE53212C44C100B7A098 /* MTTCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29DE52212C44C100B7A098 /* MTTCardCell.swift */; };
+		1A29DE55212C455200B7A098 /* MTTDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29DE54212C455200B7A098 /* MTTDateExtension.swift */; };
+		1A29DE57212C470A00B7A098 /* MTTNormalCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A29DE56212C470A00B7A098 /* MTTNormalCardCell.swift */; };
+		1A442E4B21CF7AC500EBCF6B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1A442E4A21CF7AC500EBCF6B /* README.md */; };
+		1A442E4E21CF7EB000EBCF6B /* MTTCircleBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A442E4D21CF7EB000EBCF6B /* MTTCircleBoardView.swift */; };
+		1A46EB3721561373007857CB /* MTTLaunchProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A46EB3621561373007857CB /* MTTLaunchProgressViewModel.swift */; };
+		1A60C24F2113266A001ED151 /* MTTPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A60C24E2113266A001ED151 /* MTTPhotoBrowser.swift */; };
+		1A60C25121133C8E001ED151 /* MTTUIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A60C25021133C8E001ED151 /* MTTUIImageViewExtension.swift */; };
+		1A6741522100285400A0AC3D /* Target_PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741512100285400A0AC3D /* Target_PersonalViewController.swift */; };
+		1A674154210028D600A0AC3D /* MTTPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A674153210028D600A0AC3D /* MTTPersonalViewController.swift */; };
+		1A6741562100294800A0AC3D /* MTTPopularScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741552100294800A0AC3D /* MTTPopularScienceViewController.swift */; };
+		1A67415B2100298D00A0AC3D /* Target_PopularScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67415A2100298D00A0AC3D /* Target_PopularScienceViewController.swift */; };
+		1A67415E21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A67415D21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.m */; };
+		1A67416121002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A67416021002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.m */; };
+		1A67416421008C1200A0AC3D /* MTTAssistantInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A67416321008C1200A0AC3D /* MTTAssistantInterface.swift */; };
+		1A6741662100C18100A0AC3D /* MTTStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6741652100C18100A0AC3D /* MTTStringExtension.swift */; };
+		1A6C1A5C212AF9A200802BDB /* MTTPopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C1A5B212AF9A200802BDB /* MTTPopularCell.swift */; };
+		1A6C1A60212B01C200802BDB /* MTTPopularScienceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C1A5F212B01C200802BDB /* MTTPopularScienceDetailViewController.swift */; settings = {COMPILER_FLAGS = "-Wno-unused-variable"; }; };
+		1A8F15EC21168A8A00BA6E9B /* MTTAnimatorTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8F15EB21168A8A00BA6E9B /* MTTAnimatorTransition.swift */; };
+		1AA93C0D2180933600145652 /* MTTPetRecogniseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA93C0C2180933600145652 /* MTTPetRecogniseViewController.swift */; };
+		1AC1119221ACB4DF00A37243 /* MTTCommentTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1119121ACB4DF00A37243 /* MTTCommentTopCell.swift */; };
+		1AC8423021244568000DFA32 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA338B5820CFA01000292284 /* CoreTelephony.framework */; };
+		1AC8423221244572000DFA32 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC8423121244572000DFA32 /* libz.tbd */; };
+		1AC842342124457C000DFA32 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC842332124457C000DFA32 /* libsqlite3.tbd */; };
+		1AC8423521244585000DFA32 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA338B5A20CFA01900292284 /* SystemConfiguration.framework */; };
+		1AC8D274211082A900A5C978 /* MTTPublishDynamicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC8D273211082A900A5C978 /* MTTPublishDynamicViewController.swift */; };
+		1AD2E79D21907557006398C4 /* MTTNSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD2E79C21907557006398C4 /* MTTNSObjectExtension.swift */; };
+		1AD656872130E47200BCA957 /* MTTPublishDynamicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD656862130E47200BCA957 /* MTTPublishDynamicModel.swift */; };
+		1AD6568A2130FBAE00BCA957 /* MTTPublishDynamicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD656892130FBAE00BCA957 /* MTTPublishDynamicViewModel.swift */; };
+		1AD6568C213276F900BCA957 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD6568B213276F900BCA957 /* CoreGraphics.framework */; };
+		1AD6568E2132771F00BCA957 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AD6568D2132771F00BCA957 /* libc++.tbd */; };
+		1AD656912132D2B600BCA957 /* MTTPersonalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD656902132D2B600BCA957 /* MTTPersonalViewModel.swift */; };
+		1AD92B73218D3B1500B1777F /* MTTWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD92B71218D3B1400B1777F /* MTTWaterWaveView.m */; };
+		1AE885CC2185ABE300A48C10 /* MTTPetRecogniseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE885CB2185ABE300A48C10 /* MTTPetRecogniseModel.swift */; };
+		1AE8D74C2158E94D0055152B /* MTTUserAgreementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE8D74B2158E94D0055152B /* MTTUserAgreementViewController.swift */; };
+		3DB819D3970E209508324ABA /* Pods_PetGroupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB6FC393B0AA97900775973 /* Pods_PetGroupUITests.framework */; };
+		CA01418321ABDB9E002C8101 /* MTTCommentDetailBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01418221ABDB9E002C8101 /* MTTCommentDetailBaseViewController.swift */; };
+		CA01418621ABDC47002C8101 /* MTTCommentDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA01418521ABDC47002C8101 /* MTTCommentDetailRouter.swift */; };
+		CA024C0820E5DA7000618162 /* MTTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA024C0720E5DA7000618162 /* MTTMediator.m */; };
+		CA024C5E20E5FFFA00618162 /* Target_LoginRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA024C5D20E5FFFA00618162 /* Target_LoginRegisterViewController.swift */; };
+		CA024C6120E6021500618162 /* MTTMediator+LoginRegisterTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CA024C6020E6021500618162 /* MTTMediator+LoginRegisterTargetAction.m */; };
+		CA2411B520FD900E00DED35B /* MTTRegularMatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2411B420FD900D00DED35B /* MTTRegularMatchManager.swift */; };
+		CA2411B820FD916600DED35B /* MTTLoginRegisterConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2411B720FD916600DED35B /* MTTLoginRegisterConst.swift */; };
+		CA2DD8D421D4C31F0054B13C /* MTTPushView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2DD8D321D4C31F0054B13C /* MTTPushView.swift */; };
+		CA31F14D20FD80CE003BD552 /* MTTLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31F14C20FD80CE003BD552 /* MTTLoginViewModel.swift */; };
+		CA3BD66720DCA0C500DD51AB /* MTTDeviceInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3BD66620DCA0C500DD51AB /* MTTDeviceInfoManager.swift */; };
+		CA3BD6A720DCF60800DD51AB /* MTTWelcomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3BD6A620DCF60800DD51AB /* MTTWelcomePageController.swift */; };
+		CA3C4C9C210816CE000920B5 /* Target_RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3C4C9B210816CE000920B5 /* Target_RegisterViewController.swift */; };
+		CA3C4C9F21081792000920B5 /* MTTMediator+RegisterTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3C4C9E21081792000920B5 /* MTTMediator+RegisterTargetAction.m */; };
+		CA46408A20E231CB004DE6DF /* MTTBrainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46408920E231CB004DE6DF /* MTTBrainManager.swift */; };
+		CA46408E20E2354F004DE6DF /* MTTArmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46408D20E2354F004DE6DF /* MTTArmManager.swift */; };
+		CA54D6F020FDEBD700A2E55C /* MTTUIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA54D6EF20FDEBD700A2E55C /* MTTUIViewExtension.swift */; };
+		CA559B9521815681000B2EE3 /* trained_data.tflite in Resources */ = {isa = PBXBuildFile; fileRef = CA559B9321815681000B2EE3 /* trained_data.tflite */; };
+		CA559B9621815681000B2EE3 /* objects.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA559B9421815681000B2EE3 /* objects.txt */; };
+		CA559BAD2181BE6A000B2EE3 /* MTTPetRecogniseHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA559BAB2181BE69000B2EE3 /* MTTPetRecogniseHandler.mm */; };
+		CA656E772134DF2B00B9589B /* MTTPopularScienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA656E762134DF2B00B9589B /* MTTPopularScienceModel.swift */; };
+		CA671DF920E6312800C42CA6 /* MTTRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA671DF820E6312800C42CA6 /* MTTRealm.swift */; };
+		CA6F6346218C155C00FCC1DE /* UIView+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6F6344218C155B00FCC1DE /* UIView+Rotate.m */; };
+		CA76B21A21D31A7700ADF2C9 /* DTShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA76B21921D31A7700ADF2C9 /* DTShareKit.framework */; };
+		CA76B21C21D331A100ADF2C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA76B21B21D331A100ADF2C9 /* Security.framework */; };
+		CA76B21E21D331AF00ADF2C9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CA76B21D21D331AF00ADF2C9 /* libiconv.tbd */; };
+		CA76B22021D331E000ADF2C9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA76B21F21D331E000ADF2C9 /* Accounts.framework */; };
+		CA7A2C69218931C5002BE656 /* MTTPetRecogniseDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7A2C68218931C5002BE656 /* MTTPetRecogniseDataInfo.swift */; };
+		CA7D69EE21ACE00500AF2240 /* MTTCommentInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D69ED21ACE00500AF2240 /* MTTCommentInputView.swift */; };
+		CA7D69F021ACF4B500AF2240 /* MTTUITextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D69EF21ACF4B500AF2240 /* MTTUITextViewExtension.swift */; };
+		CA7D69F321AD0D0000AF2240 /* MTTCommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D69F221AD0D0000AF2240 /* MTTCommentModel.swift */; };
+		CA7D69F621AD12CC00AF2240 /* MTTCommentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D69F521AD12CC00AF2240 /* MTTCommentViewModel.swift */; };
+		CA7D69F821AD2E2C00AF2240 /* MTTCommentListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7D69F721AD2E2C00AF2240 /* MTTCommentListCell.swift */; };
+		CA87B31620C8AE1200BC7149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87B31520C8AE1200BC7149 /* AppDelegate.swift */; };
+		CA87B31B20C8AE1200BC7149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA87B31920C8AE1200BC7149 /* Main.storyboard */; };
+		CA87B31D20C8AE1200BC7149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA87B31C20C8AE1200BC7149 /* Assets.xcassets */; };
+		CA87B32020C8AE1200BC7149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA87B31E20C8AE1200BC7149 /* LaunchScreen.storyboard */; };
+		CA87B32B20C8AE1200BC7149 /* PetGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87B32A20C8AE1200BC7149 /* PetGroupTests.swift */; };
+		CA87B33620C8AE1200BC7149 /* PetGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87B33520C8AE1200BC7149 /* PetGroupUITests.swift */; };
+		CA87B35520C8C33C00BC7149 /* MTTLoginRegisterModuleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87B35420C8C33C00BC7149 /* MTTLoginRegisterModuleController.swift */; };
+		CA87B35720C8C40500BC7149 /* MTTCommonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87B35620C8C40400BC7149 /* MTTCommonConfig.swift */; };
+		CA890E67211A80F4001A0F63 /* MTTPhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA890E66211A80F4001A0F63 /* MTTPhotoPicker.swift */; };
+		CA8F46012109C87E00F4032C /* MTTPlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F46002109C87E00F4032C /* MTTPlaceView.swift */; };
+		CA93F48520E318D0005849D8 /* MTTTaskCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA93F48420E318D0005849D8 /* MTTTaskCenter.swift */; };
+		CA93F48720E33E4A005849D8 /* MTTLaunchInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA93F48620E33E4A005849D8 /* MTTLaunchInterface.swift */; };
+		CA93F48F20E36D44005849D8 /* MTTLegManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA93F48E20E36D44005849D8 /* MTTLegManager.swift */; };
+		CA95C5312101678A00DE7BAF /* MTTUserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95C5302101678A00DE7BAF /* MTTUserInfoManager.swift */; };
+		CA95C5332101694700DE7BAF /* MTTLoginInfoTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95C5322101694700DE7BAF /* MTTLoginInfoTable.swift */; };
+		CA95C53621018A0E00DE7BAF /* MTTCircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95C53521018A0E00DE7BAF /* MTTCircleViewModel.swift */; };
+		CA95C5392101926F00DE7BAF /* MTTCircleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95C5382101926F00DE7BAF /* MTTCircleService.swift */; };
+		CA9BA82A20FED169003307CB /* MTTUIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BA82920FED169003307CB /* MTTUIButtonExtension.swift */; };
+		CA9BA82D20FED9E1003307CB /* MTTRuntimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BA82C20FED9E1003307CB /* MTTRuntimeManager.swift */; };
+		CA9BA86920FF1675003307CB /* MTTServerAPIConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9BA86820FF1675003307CB /* MTTServerAPIConst.swift */; };
+		CAA1C5D620F8A58600AF59D3 /* MTTCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA1C5D520F8A58600AF59D3 /* MTTCircleViewController.swift */; };
+		CAA1C5D920F8A66000AF59D3 /* MTTMediator+CircleTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA1C5D820F8A66000AF59D3 /* MTTMediator+CircleTargetAction.m */; };
+		CAA1C5DC20F8A73300AF59D3 /* Target_CircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA1C5DB20F8A73300AF59D3 /* Target_CircleViewController.swift */; };
+		CAA589A620E07D0C00F3D68F /* MTTNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA589A520E07D0C00F3D68F /* MTTNetworkManager.swift */; };
+		CAA589A820E0B49900F3D68F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA589A720E0B49900F3D68F /* Reachability.swift */; };
+		CAB03FDB20FC915600E6087C /* MTTUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB03FDA20FC915600E6087C /* MTTUIImageExtension.swift */; };
+		CABDCCD921756F330065E8DE /* MTTReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABDCCD821756F330065E8DE /* MTTReportView.swift */; };
+		CAC3734920FC738B0041E78C /* MTTLoginRegisterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC3734820FC738B0041E78C /* MTTLoginRegisterService.swift */; };
+		CAC9EB9F21829D3200EE5BCC /* MTTCameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC9EB9E21829D3200EE5BCC /* MTTCameraController.swift */; };
+		CAD1C2E62105663C00FD3BA1 /* MTTCircleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1C2E52105663C00FD3BA1 /* MTTCircleCell.swift */; };
+		CAD1C2EC2105A12800FD3BA1 /* MTTCircleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1C2EB2105A12800FD3BA1 /* MTTCircleModel.swift */; };
+		CAD7FC502112A74000EA9FA2 /* MTTPublishImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD7FC4F2112A74000EA9FA2 /* MTTPublishImageCell.swift */; };
+		CADEEE6D20EB10270034662E /* MTTWelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADEEE6C20EB10270034662E /* MTTWelcomePageView.swift */; };
+		CADEEE7020EB13130034662E /* MTTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADEEE6F20EB13130034662E /* MTTViewController.swift */; };
+		CADEEE7420EB1F7E0034662E /* MTTUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADEEE7320EB1F7E0034662E /* MTTUIColorExtension.swift */; };
+		CAE1042120E9BFB0004DC78B /* MTTPetGroupInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1042020E9BFB0004DC78B /* MTTPetGroupInfoModel.swift */; };
+		CAE1042420E9C4C9004DC78B /* MTTWelcomePageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1042320E9C4C9004DC78B /* MTTWelcomePageInterface.swift */; };
+		CAE1042720E9C573004DC78B /* MTTWelcomePageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1042620E9C573004DC78B /* MTTWelcomePageManager.swift */; };
+		CAE1042A20EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE1042920EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.m */; };
+		CAE1042D20EA2629004DC78B /* Target_WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE1042C20EA2629004DC78B /* Target_WelcomePageViewController.swift */; };
+		CAE2867F212A4416009D0996 /* MTTCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE2867E212A4416009D0996 /* MTTCollectionViewFlowLayout.swift */; };
+		CAE82DD520EB26AE002D0267 /* MTTWelcomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE82DD420EB26AE002D0267 /* MTTWelcomePageViewModel.swift */; };
+		CAE82DD720EB272C002D0267 /* MTTWelcomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE82DD620EB272C002D0267 /* MTTWelcomePageModel.swift */; };
+		CAE82DDA20EB4A71002D0267 /* MTTSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE82DD920EB4A71002D0267 /* MTTSequence.swift */; };
+		CAE82DDD20EB631F002D0267 /* MTTConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE82DDC20EB631F002D0267 /* MTTConst.swift */; };
+		CAED55DA20EDBCB4004E3C2F /* MTTSuperiorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55D920EDBCB4004E3C2F /* MTTSuperiorManager.swift */; };
+		CAED55DD20EDBDD1004E3C2F /* MTTBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55DC20EDBDD1004E3C2F /* MTTBaseModel.swift */; };
+		CAED55E220EDC1FC004E3C2F /* MTTUserIdentityInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55E120EDC1FC004E3C2F /* MTTUserIdentityInterface.swift */; };
+		CAED55E420EDFB6C004E3C2F /* MTTLeftHandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55E320EDFB6C004E3C2F /* MTTLeftHandManager.swift */; };
+		CAED55E620EDFB7A004E3C2F /* MTTRigthHandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55E520EDFB7A004E3C2F /* MTTRigthHandManager.swift */; };
+		CAED55E820EDFE79004E3C2F /* MTTAssistantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED55E720EDFE79004E3C2F /* MTTAssistantManager.swift */; };
+		CAED562520EF3D38004E3C2F /* MTTSecurityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAED562420EF3D38004E3C2F /* MTTSecurityManager.swift */; };
+		CAF9527D21CB1B9F008BA95C /* MTTCommentMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF9527C21CB1B9F008BA95C /* MTTCommentMenuView.swift */; };
+		CAFB1E7B20ECA20F0063D824 /* MTTFingerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB1E7A20ECA20F0063D824 /* MTTFingerManager.swift */; };
+		CAFB1E8020ECAD640063D824 /* MTTLaunchProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB1E7F20ECAD640063D824 /* MTTLaunchProgressView.swift */; };
+		CAFB1E8320ECAE3D0063D824 /* MTTProgressInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB1E8220ECAE3D0063D824 /* MTTProgressInterface.swift */; };
+		CAFB1E8620ECC52E0063D824 /* MTTLauchProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFB1E8520ECC52E0063D824 /* MTTLauchProgressController.swift */; };
+		CAFCA088212EAB2500457CA3 /* MTTPhotoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCA087212EAB2500457CA3 /* MTTPhotoListView.swift */; };
+		FCDBA98D38681D00C77DB72E /* Pods_PetGroupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38DF9C9BCBB70948F6C036E /* Pods_PetGroupTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA87B32720C8AE1200BC7149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA87B30A20C8AE1200BC7149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA87B31120C8AE1200BC7149;
+			remoteInfo = PetGroup;
+		};
+		CA87B33220C8AE1200BC7149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA87B30A20C8AE1200BC7149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA87B31120C8AE1200BC7149;
+			remoteInfo = PetGroup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09CABDE5DEE9A9E213C4E4B4 /* Pods-PetGroupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroupUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroupUITests/Pods-PetGroupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1A1CBDC021048A54000894DF /* MTTUIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUIViewControllerExtension.swift; sourceTree = "<group>"; };
+		1A1CBDC82104C167000894DF /* MTTUINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		1A29DE50212C446E00B7A098 /* MTTPetGroupCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTPetGroupCardCell.swift; sourceTree = "<group>"; };
+		1A29DE52212C44C100B7A098 /* MTTCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTCardCell.swift; sourceTree = "<group>"; };
+		1A29DE54212C455200B7A098 /* MTTDateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTDateExtension.swift; sourceTree = "<group>"; };
+		1A29DE56212C470A00B7A098 /* MTTNormalCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTNormalCardCell.swift; sourceTree = "<group>"; };
+		1A442E4A21CF7AC500EBCF6B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1A442E4D21CF7EB000EBCF6B /* MTTCircleBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleBoardView.swift; sourceTree = "<group>"; };
+		1A46EB3621561373007857CB /* MTTLaunchProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLaunchProgressViewModel.swift; sourceTree = "<group>"; };
+		1A60C24E2113266A001ED151 /* MTTPhotoBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPhotoBrowser.swift; sourceTree = "<group>"; };
+		1A60C25021133C8E001ED151 /* MTTUIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUIImageViewExtension.swift; sourceTree = "<group>"; };
+		1A6741512100285400A0AC3D /* Target_PersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_PersonalViewController.swift; sourceTree = "<group>"; };
+		1A674153210028D600A0AC3D /* MTTPersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPersonalViewController.swift; sourceTree = "<group>"; };
+		1A6741552100294800A0AC3D /* MTTPopularScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPopularScienceViewController.swift; sourceTree = "<group>"; };
+		1A67415A2100298D00A0AC3D /* Target_PopularScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_PopularScienceViewController.swift; sourceTree = "<group>"; };
+		1A67415C21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+PersonalTargetAction.h"; sourceTree = "<group>"; };
+		1A67415D21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+PersonalTargetAction.m"; sourceTree = "<group>"; };
+		1A67415F21002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+PopularScienceTargetAction.h"; sourceTree = "<group>"; };
+		1A67416021002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+PopularScienceTargetAction.m"; sourceTree = "<group>"; };
+		1A67416321008C1200A0AC3D /* MTTAssistantInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTAssistantInterface.swift; sourceTree = "<group>"; };
+		1A6741652100C18100A0AC3D /* MTTStringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTStringExtension.swift; sourceTree = "<group>"; };
+		1A6C1A5B212AF9A200802BDB /* MTTPopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPopularCell.swift; sourceTree = "<group>"; };
+		1A6C1A5F212B01C200802BDB /* MTTPopularScienceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPopularScienceDetailViewController.swift; sourceTree = "<group>"; };
+		1A8F15EB21168A8A00BA6E9B /* MTTAnimatorTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTAnimatorTransition.swift; sourceTree = "<group>"; };
+		1AA93C0C2180933600145652 /* MTTPetRecogniseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPetRecogniseViewController.swift; sourceTree = "<group>"; };
+		1AC1119121ACB4DF00A37243 /* MTTCommentTopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentTopCell.swift; sourceTree = "<group>"; };
+		1AC8423121244572000DFA32 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1AC842332124457C000DFA32 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1AC84236212463F6000DFA32 /* PetGroup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetGroup.entitlements; sourceTree = "<group>"; };
+		1AC8D273211082A900A5C978 /* MTTPublishDynamicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPublishDynamicViewController.swift; sourceTree = "<group>"; };
+		1AD2E79C21907557006398C4 /* MTTNSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTNSObjectExtension.swift; sourceTree = "<group>"; };
+		1AD656862130E47200BCA957 /* MTTPublishDynamicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPublishDynamicModel.swift; sourceTree = "<group>"; };
+		1AD656892130FBAE00BCA957 /* MTTPublishDynamicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPublishDynamicViewModel.swift; sourceTree = "<group>"; };
+		1AD6568B213276F900BCA957 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AD6568D2132771F00BCA957 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1AD656902132D2B600BCA957 /* MTTPersonalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPersonalViewModel.swift; sourceTree = "<group>"; };
+		1AD92B71218D3B1400B1777F /* MTTWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTWaterWaveView.m; sourceTree = "<group>"; };
+		1AD92B72218D3B1400B1777F /* MTTWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTWaterWaveView.h; sourceTree = "<group>"; };
+		1AE885CB2185ABE300A48C10 /* MTTPetRecogniseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPetRecogniseModel.swift; sourceTree = "<group>"; };
+		1AE8D74B2158E94D0055152B /* MTTUserAgreementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUserAgreementViewController.swift; sourceTree = "<group>"; };
+		44FB8F7B70B1203044AE12C8 /* Pods-PetGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroup/Pods-PetGroup.debug.xcconfig"; sourceTree = "<group>"; };
+		496812036C119981D8F669E9 /* Pods-PetGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroup.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroup/Pods-PetGroup.release.xcconfig"; sourceTree = "<group>"; };
+		4BB7882558CE6889540B6FF6 /* Pods-PetGroupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroupTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroupTests/Pods-PetGroupTests.release.xcconfig"; sourceTree = "<group>"; };
+		64E426CCC1531DB137182960 /* Pods_PetGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E310317420485B9D270B754 /* Pods-PetGroupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroupTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroupTests/Pods-PetGroupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA01418221ABDB9E002C8101 /* MTTCommentDetailBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentDetailBaseViewController.swift; sourceTree = "<group>"; };
+		CA01418521ABDC47002C8101 /* MTTCommentDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentDetailRouter.swift; sourceTree = "<group>"; };
+		CA024C0520E5DA7000618162 /* PetGroup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetGroup-Bridging-Header.h"; sourceTree = "<group>"; };
+		CA024C0620E5DA7000618162 /* MTTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTMediator.h; sourceTree = "<group>"; };
+		CA024C0720E5DA7000618162 /* MTTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTMediator.m; sourceTree = "<group>"; };
+		CA024C5D20E5FFFA00618162 /* Target_LoginRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_LoginRegisterViewController.swift; sourceTree = "<group>"; };
+		CA024C5F20E6021500618162 /* MTTMediator+LoginRegisterTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+LoginRegisterTargetAction.h"; sourceTree = "<group>"; };
+		CA024C6020E6021500618162 /* MTTMediator+LoginRegisterTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+LoginRegisterTargetAction.m"; sourceTree = "<group>"; };
+		CA2411B420FD900D00DED35B /* MTTRegularMatchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTRegularMatchManager.swift; sourceTree = "<group>"; };
+		CA2411B720FD916600DED35B /* MTTLoginRegisterConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLoginRegisterConst.swift; sourceTree = "<group>"; };
+		CA2DD8D321D4C31F0054B13C /* MTTPushView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPushView.swift; sourceTree = "<group>"; };
+		CA31F14C20FD80CE003BD552 /* MTTLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLoginViewModel.swift; sourceTree = "<group>"; };
+		CA338B5820CFA01000292284 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CA338B5A20CFA01900292284 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CA338B5C20CFA02300292284 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CA3BD66620DCA0C500DD51AB /* MTTDeviceInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTDeviceInfoManager.swift; sourceTree = "<group>"; };
+		CA3BD6A620DCF60800DD51AB /* MTTWelcomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageController.swift; sourceTree = "<group>"; };
+		CA3C4C9B210816CE000920B5 /* Target_RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_RegisterViewController.swift; sourceTree = "<group>"; };
+		CA3C4C9D21081792000920B5 /* MTTMediator+RegisterTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+RegisterTargetAction.h"; sourceTree = "<group>"; };
+		CA3C4C9E21081792000920B5 /* MTTMediator+RegisterTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+RegisterTargetAction.m"; sourceTree = "<group>"; };
+		CA46408920E231CB004DE6DF /* MTTBrainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTBrainManager.swift; sourceTree = "<group>"; };
+		CA46408D20E2354F004DE6DF /* MTTArmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTArmManager.swift; sourceTree = "<group>"; };
+		CA54D6EF20FDEBD700A2E55C /* MTTUIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUIViewExtension.swift; sourceTree = "<group>"; };
+		CA559B9321815681000B2EE3 /* trained_data.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = trained_data.tflite; sourceTree = "<group>"; };
+		CA559B9421815681000B2EE3 /* objects.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objects.txt; sourceTree = "<group>"; };
+		CA559BAB2181BE69000B2EE3 /* MTTPetRecogniseHandler.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MTTPetRecogniseHandler.mm; sourceTree = "<group>"; };
+		CA559BAC2181BE6A000B2EE3 /* MTTPetRecogniseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTPetRecogniseHandler.h; sourceTree = "<group>"; };
+		CA656E762134DF2B00B9589B /* MTTPopularScienceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPopularScienceModel.swift; sourceTree = "<group>"; };
+		CA671DF820E6312800C42CA6 /* MTTRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTRealm.swift; sourceTree = "<group>"; };
+		CA6F6344218C155B00FCC1DE /* UIView+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rotate.m"; sourceTree = "<group>"; };
+		CA6F6345218C155B00FCC1DE /* UIView+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rotate.h"; sourceTree = "<group>"; };
+		CA76B21921D31A7700ADF2C9 /* DTShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DTShareKit.framework; sourceTree = "<group>"; };
+		CA76B21B21D331A100ADF2C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CA76B21D21D331AF00ADF2C9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CA76B21F21D331E000ADF2C9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CA7A2C68218931C5002BE656 /* MTTPetRecogniseDataInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPetRecogniseDataInfo.swift; sourceTree = "<group>"; };
+		CA7D69ED21ACE00500AF2240 /* MTTCommentInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentInputView.swift; sourceTree = "<group>"; };
+		CA7D69EF21ACF4B500AF2240 /* MTTUITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUITextViewExtension.swift; sourceTree = "<group>"; };
+		CA7D69F221AD0D0000AF2240 /* MTTCommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentModel.swift; sourceTree = "<group>"; };
+		CA7D69F521AD12CC00AF2240 /* MTTCommentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentViewModel.swift; sourceTree = "<group>"; };
+		CA7D69F721AD2E2C00AF2240 /* MTTCommentListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentListCell.swift; sourceTree = "<group>"; };
+		CA87B31220C8AE1200BC7149 /* PetGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA87B31520C8AE1200BC7149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA87B31A20C8AE1200BC7149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA87B31C20C8AE1200BC7149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA87B31F20C8AE1200BC7149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA87B32120C8AE1200BC7149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA87B32620C8AE1200BC7149 /* PetGroupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA87B32A20C8AE1200BC7149 /* PetGroupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGroupTests.swift; sourceTree = "<group>"; };
+		CA87B32C20C8AE1200BC7149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA87B33120C8AE1200BC7149 /* PetGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA87B33520C8AE1200BC7149 /* PetGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetGroupUITests.swift; sourceTree = "<group>"; };
+		CA87B33720C8AE1200BC7149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA87B35420C8C33C00BC7149 /* MTTLoginRegisterModuleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLoginRegisterModuleController.swift; sourceTree = "<group>"; };
+		CA87B35620C8C40400BC7149 /* MTTCommonConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommonConfig.swift; sourceTree = "<group>"; };
+		CA890E66211A80F4001A0F63 /* MTTPhotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPhotoPicker.swift; sourceTree = "<group>"; };
+		CA8F46002109C87E00F4032C /* MTTPlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPlaceView.swift; sourceTree = "<group>"; };
+		CA93F48420E318D0005849D8 /* MTTTaskCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTTaskCenter.swift; sourceTree = "<group>"; };
+		CA93F48620E33E4A005849D8 /* MTTLaunchInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLaunchInterface.swift; sourceTree = "<group>"; };
+		CA93F48E20E36D44005849D8 /* MTTLegManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLegManager.swift; sourceTree = "<group>"; };
+		CA95C5302101678A00DE7BAF /* MTTUserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUserInfoManager.swift; sourceTree = "<group>"; };
+		CA95C5322101694700DE7BAF /* MTTLoginInfoTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLoginInfoTable.swift; sourceTree = "<group>"; };
+		CA95C53521018A0E00DE7BAF /* MTTCircleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleViewModel.swift; sourceTree = "<group>"; };
+		CA95C5382101926F00DE7BAF /* MTTCircleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleService.swift; sourceTree = "<group>"; };
+		CA9BA82920FED169003307CB /* MTTUIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUIButtonExtension.swift; sourceTree = "<group>"; };
+		CA9BA82C20FED9E1003307CB /* MTTRuntimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTRuntimeManager.swift; sourceTree = "<group>"; };
+		CA9BA86820FF1675003307CB /* MTTServerAPIConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTServerAPIConst.swift; sourceTree = "<group>"; };
+		CAA1C5D520F8A58600AF59D3 /* MTTCircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleViewController.swift; sourceTree = "<group>"; };
+		CAA1C5D720F8A66000AF59D3 /* MTTMediator+CircleTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+CircleTargetAction.h"; sourceTree = "<group>"; };
+		CAA1C5D820F8A66000AF59D3 /* MTTMediator+CircleTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+CircleTargetAction.m"; sourceTree = "<group>"; };
+		CAA1C5DB20F8A73300AF59D3 /* Target_CircleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_CircleViewController.swift; sourceTree = "<group>"; };
+		CAA589A520E07D0C00F3D68F /* MTTNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTNetworkManager.swift; sourceTree = "<group>"; };
+		CAA589A720E0B49900F3D68F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		CAB03FDA20FC915600E6087C /* MTTUIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUIImageExtension.swift; sourceTree = "<group>"; };
+		CAB67D81FC22EF95DB2C07D3 /* Pods-PetGroupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetGroupUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetGroupUITests/Pods-PetGroupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CABDCCD821756F330065E8DE /* MTTReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTReportView.swift; sourceTree = "<group>"; };
+		CAC3734820FC738B0041E78C /* MTTLoginRegisterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLoginRegisterService.swift; sourceTree = "<group>"; };
+		CAC9EB9E21829D3200EE5BCC /* MTTCameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCameraController.swift; sourceTree = "<group>"; };
+		CAD1C2E52105663C00FD3BA1 /* MTTCircleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleCell.swift; sourceTree = "<group>"; };
+		CAD1C2EB2105A12800FD3BA1 /* MTTCircleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCircleModel.swift; sourceTree = "<group>"; };
+		CAD7FC492112A19800EA9FA2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CAD7FC4A2112A19800EA9FA2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CAD7FC4B2112A1A500EA9FA2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		CAD7FC4C2112A1A600EA9FA2 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CAD7FC4F2112A74000EA9FA2 /* MTTPublishImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPublishImageCell.swift; sourceTree = "<group>"; };
+		CADEEE6C20EB10270034662E /* MTTWelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageView.swift; sourceTree = "<group>"; };
+		CADEEE6F20EB13130034662E /* MTTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTViewController.swift; sourceTree = "<group>"; };
+		CADEEE7320EB1F7E0034662E /* MTTUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTUIColorExtension.swift; sourceTree = "<group>"; };
+		CAE1042020E9BFB0004DC78B /* MTTPetGroupInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPetGroupInfoModel.swift; sourceTree = "<group>"; };
+		CAE1042320E9C4C9004DC78B /* MTTWelcomePageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageInterface.swift; sourceTree = "<group>"; };
+		CAE1042620E9C573004DC78B /* MTTWelcomePageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageManager.swift; sourceTree = "<group>"; };
+		CAE1042820EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTTMediator+WelcomePageTargetAction.h"; sourceTree = "<group>"; };
+		CAE1042920EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MTTMediator+WelcomePageTargetAction.m"; sourceTree = "<group>"; };
+		CAE1042C20EA2629004DC78B /* Target_WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_WelcomePageViewController.swift; sourceTree = "<group>"; };
+		CAE2867E212A4416009D0996 /* MTTCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		CAE82DD420EB26AE002D0267 /* MTTWelcomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageViewModel.swift; sourceTree = "<group>"; };
+		CAE82DD620EB272C002D0267 /* MTTWelcomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTWelcomePageModel.swift; sourceTree = "<group>"; };
+		CAE82DD920EB4A71002D0267 /* MTTSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTSequence.swift; sourceTree = "<group>"; };
+		CAE82DDC20EB631F002D0267 /* MTTConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTConst.swift; sourceTree = "<group>"; };
+		CAED55D920EDBCB4004E3C2F /* MTTSuperiorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTSuperiorManager.swift; sourceTree = "<group>"; };
+		CAED55DC20EDBDD1004E3C2F /* MTTBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTBaseModel.swift; sourceTree = "<group>"; };
+		CAED55E120EDC1FC004E3C2F /* MTTUserIdentityInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTUserIdentityInterface.swift; sourceTree = "<group>"; };
+		CAED55E320EDFB6C004E3C2F /* MTTLeftHandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLeftHandManager.swift; sourceTree = "<group>"; };
+		CAED55E520EDFB7A004E3C2F /* MTTRigthHandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTRigthHandManager.swift; sourceTree = "<group>"; };
+		CAED55E720EDFE79004E3C2F /* MTTAssistantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTAssistantManager.swift; sourceTree = "<group>"; };
+		CAED562420EF3D38004E3C2F /* MTTSecurityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTSecurityManager.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		CAF9527C21CB1B9F008BA95C /* MTTCommentMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTCommentMenuView.swift; sourceTree = "<group>"; };
+		CAFB1E7A20ECA20F0063D824 /* MTTFingerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTFingerManager.swift; sourceTree = "<group>"; };
+		CAFB1E7F20ECAD640063D824 /* MTTLaunchProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLaunchProgressView.swift; sourceTree = "<group>"; };
+		CAFB1E8220ECAE3D0063D824 /* MTTProgressInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTProgressInterface.swift; sourceTree = "<group>"; };
+		CAFB1E8520ECC52E0063D824 /* MTTLauchProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTLauchProgressController.swift; sourceTree = "<group>"; };
+		CAFCA087212EAB2500457CA3 /* MTTPhotoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTTPhotoListView.swift; sourceTree = "<group>"; };
+		CBB6FC393B0AA97900775973 /* Pods_PetGroupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetGroupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D38DF9C9BCBB70948F6C036E /* Pods_PetGroupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetGroupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA87B30F20C8AE1200BC7149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA76B22021D331E000ADF2C9 /* Accounts.framework in Frameworks */,
+				1AC8423221244572000DFA32 /* libz.tbd in Frameworks */,
+				1AC8423021244568000DFA32 /* CoreTelephony.framework in Frameworks */,
+				CA76B21E21D331AF00ADF2C9 /* libiconv.tbd in Frameworks */,
+				CA76B21C21D331A100ADF2C9 /* Security.framework in Frameworks */,
+				1AD6568E2132771F00BCA957 /* libc++.tbd in Frameworks */,
+				1AD6568C213276F900BCA957 /* CoreGraphics.framework in Frameworks */,
+				1AC8423521244585000DFA32 /* SystemConfiguration.framework in Frameworks */,
+				CA76B21A21D31A7700ADF2C9 /* DTShareKit.framework in Frameworks */,
+				1AC842342124457C000DFA32 /* libsqlite3.tbd in Frameworks */,
+				0BB397E9DA65D63E008AB195 /* Pods_PetGroup.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32320C8AE1200BC7149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDBA98D38681D00C77DB72E /* Pods_PetGroupTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32E20C8AE1200BC7149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB819D3970E209508324ABA /* Pods_PetGroupUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A29DE4E212C445300B7A098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD92B70218D3AE700B1777F /* View */,
+				1A29DE4F212C445700B7A098 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A29DE4F212C445700B7A098 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1A29DE56212C470A00B7A098 /* MTTNormalCardCell.swift */,
+				1A29DE52212C44C100B7A098 /* MTTCardCell.swift */,
+				1A29DE50212C446E00B7A098 /* MTTPetGroupCardCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1A442E4C21CF7D2100EBCF6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A442E4D21CF7EB000EBCF6B /* MTTCircleBoardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A469D8A2100145F00A9F3F6 /* PopularScience */ = {
+			isa = PBXGroup;
+			children = (
+				CA656E752134DF1300B9589B /* Model */,
+				1A6C1A5D212B017200802BDB /* Detail */,
+				1A6C1A59212AF97B00802BDB /* View */,
+				1A6741572100296200A0AC3D /* Target */,
+				1A469D8B21001DFC00A9F3F6 /* Controller */,
+			);
+			path = PopularScience;
+			sourceTree = "<group>";
+		};
+		1A469D8B21001DFC00A9F3F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A6741552100294800A0AC3D /* MTTPopularScienceViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A469D8E21001F2300A9F3F6 /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				1AD6568F2132D29F00BCA957 /* ViewModel */,
+				1A29DE4E212C445300B7A098 /* View */,
+				1A469D922100215800A9F3F6 /* Target */,
+				1A469D9121001F6B00A9F3F6 /* Controller */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		1A469D9121001F6B00A9F3F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A674153210028D600A0AC3D /* MTTPersonalViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A469D922100215800A9F3F6 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				1A6741512100285400A0AC3D /* Target_PersonalViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		1A46EB352156132C007857CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A46EB3621561373007857CB /* MTTLaunchProgressViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A60C24C21132605001ED151 /* PhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				1A60C24D21132633001ED151 /* Core */,
+			);
+			path = PhotoBrowser;
+			sourceTree = "<group>";
+		};
+		1A60C24D21132633001ED151 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A60C24E2113266A001ED151 /* MTTPhotoBrowser.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1A6741572100296200A0AC3D /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				1A67415A2100298D00A0AC3D /* Target_PopularScienceViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		1A6C1A59212AF97B00802BDB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C1A5A212AF97F00802BDB /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A6C1A5A212AF97F00802BDB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C1A5B212AF9A200802BDB /* MTTPopularCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1A6C1A5D212B017200802BDB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C1A5E212B018000802BDB /* Controller */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		1A6C1A5E212B018000802BDB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C1A5F212B01C200802BDB /* MTTPopularScienceDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1A8F15EA21168A5D00BA6E9B /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				1A8F15EB21168A8A00BA6E9B /* MTTAnimatorTransition.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		1A90F62621D4F75E00CD9D64 /* PushView */ = {
+			isa = PBXGroup;
+			children = (
+				CA2DD8D321D4C31F0054B13C /* MTTPushView.swift */,
+			);
+			path = PushView;
+			sourceTree = "<group>";
+		};
+		1AA93C0A2180922800145652 /* PetRecognise */ = {
+			isa = PBXGroup;
+			children = (
+				CA7A2C6721893176002BE656 /* Database */,
+				1AE885CA2185ABC400A48C10 /* Model */,
+				CA559B9221815647000B2EE3 /* data */,
+				1AA93C0B2180931500145652 /* Controller */,
+			);
+			path = PetRecognise;
+			sourceTree = "<group>";
+		};
+		1AA93C0B2180931500145652 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA559BAC2181BE6A000B2EE3 /* MTTPetRecogniseHandler.h */,
+				CA559BAB2181BE69000B2EE3 /* MTTPetRecogniseHandler.mm */,
+				1AA93C0C2180933600145652 /* MTTPetRecogniseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AC1119021ACB49A00A37243 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D69EC21ACDFEC00AF2240 /* View */,
+				CA7D69EB21ACDFE200AF2240 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AC8D2712110826B00A5C978 /* PublishDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				1AD656882130FB9400BCA957 /* ViewModel */,
+				CAD7FC4D2112A72000EA9FA2 /* View */,
+				1AC8D2722110827D00A5C978 /* Controller */,
+			);
+			path = PublishDynamic;
+			sourceTree = "<group>";
+		};
+		1AC8D2722110827D00A5C978 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8D273211082A900A5C978 /* MTTPublishDynamicViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1AD656882130FB9400BCA957 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AD656892130FBAE00BCA957 /* MTTPublishDynamicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1AD6568F2132D29F00BCA957 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1AD656902132D2B600BCA957 /* MTTPersonalViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1AD92B70218D3AE700B1777F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AD92B72218D3B1400B1777F /* MTTWaterWaveView.h */,
+				1AD92B71218D3B1400B1777F /* MTTWaterWaveView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AE885CA2185ABC400A48C10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AE885CB2185ABE300A48C10 /* MTTPetRecogniseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94DAEDEFFBE9F92B2B2C7260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44FB8F7B70B1203044AE12C8 /* Pods-PetGroup.debug.xcconfig */,
+				496812036C119981D8F669E9 /* Pods-PetGroup.release.xcconfig */,
+				9E310317420485B9D270B754 /* Pods-PetGroupTests.debug.xcconfig */,
+				4BB7882558CE6889540B6FF6 /* Pods-PetGroupTests.release.xcconfig */,
+				CAB67D81FC22EF95DB2C07D3 /* Pods-PetGroupUITests.debug.xcconfig */,
+				09CABDE5DEE9A9E213C4E4B4 /* Pods-PetGroupUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		991E589F1068DAC356849CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA76B21F21D331E000ADF2C9 /* Accounts.framework */,
+				CA76B21D21D331AF00ADF2C9 /* libiconv.tbd */,
+				CA76B21B21D331A100ADF2C9 /* Security.framework */,
+				1AD6568D2132771F00BCA957 /* libc++.tbd */,
+				1AD6568B213276F900BCA957 /* CoreGraphics.framework */,
+				1AC842332124457C000DFA32 /* libsqlite3.tbd */,
+				1AC8423121244572000DFA32 /* libz.tbd */,
+				CA338B5C20CFA02300292284 /* libstdc++.tbd */,
+				CA338B5A20CFA01900292284 /* SystemConfiguration.framework */,
+				CA338B5820CFA01000292284 /* CoreTelephony.framework */,
+				64E426CCC1531DB137182960 /* Pods_PetGroup.framework */,
+				D38DF9C9BCBB70948F6C036E /* Pods_PetGroupTests.framework */,
+				CBB6FC393B0AA97900775973 /* Pods_PetGroupUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA01417F21ABD689002C8101 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				CA01418021ABD7EE002C8101 /* CommentDetail */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		CA01418021ABD7EE002C8101 /* CommentDetail */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D69F421AD12B600AF2240 /* ViewModel */,
+				CA7D69F121AD0CEC00AF2240 /* Model */,
+				1AC1119021ACB49A00A37243 /* View */,
+				CA01418421ABDBF6002C8101 /* Router */,
+				CA01418121ABD88E002C8101 /* Controller */,
+			);
+			path = CommentDetail;
+			sourceTree = "<group>";
+		};
+		CA01418121ABD88E002C8101 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA01418221ABDB9E002C8101 /* MTTCommentDetailBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA01418421ABDBF6002C8101 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CA01418521ABDC47002C8101 /* MTTCommentDetailRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CA024C0420E5DA4200618162 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				CA024C0520E5DA7000618162 /* PetGroup-Bridging-Header.h */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		CA024C5920E5FF6700618162 /* RouterCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CA024C5F20E6021500618162 /* MTTMediator+LoginRegisterTargetAction.h */,
+				CA024C6020E6021500618162 /* MTTMediator+LoginRegisterTargetAction.m */,
+				CA3C4C9D21081792000920B5 /* MTTMediator+RegisterTargetAction.h */,
+				CA3C4C9E21081792000920B5 /* MTTMediator+RegisterTargetAction.m */,
+				CAE1042820EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.h */,
+				CAE1042920EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.m */,
+				CAA1C5D720F8A66000AF59D3 /* MTTMediator+CircleTargetAction.h */,
+				CAA1C5D820F8A66000AF59D3 /* MTTMediator+CircleTargetAction.m */,
+				1A67415C21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.h */,
+				1A67415D21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.m */,
+				1A67415F21002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.h */,
+				1A67416021002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.m */,
+			);
+			path = RouterCategory;
+			sourceTree = "<group>";
+		};
+		CA024C5A20E5FF9100618162 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				CA024C5D20E5FFFA00618162 /* Target_LoginRegisterViewController.swift */,
+				CA3C4C9B210816CE000920B5 /* Target_RegisterViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		CA2411B220FD7F4000DED35B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA31F14C20FD80CE003BD552 /* MTTLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA2411B320FD8FCD00DED35B /* RegularMacth */ = {
+			isa = PBXGroup;
+			children = (
+				CA2411B420FD900D00DED35B /* MTTRegularMatchManager.swift */,
+			);
+			path = RegularMacth;
+			sourceTree = "<group>";
+		};
+		CA2411B620FD915300DED35B /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CA2411B720FD916600DED35B /* MTTLoginRegisterConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CA3BD66120DC9D3E00DD51AB /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CAE82DD320EB269C002D0267 /* ViewModel */,
+				CADEEE6B20EB100F0034662E /* View */,
+				CAE1042B20EA2604004DC78B /* Target */,
+				CAE1042520E9C564004DC78B /* Manager */,
+				CAE1042220E9C4B6004DC78B /* Interface */,
+				CAE1041D20E9BF81004DC78B /* Controller */,
+				CAE1041C20E9BF73004DC78B /* Model */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		CA3BD66320DCA07300DD51AB /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				CA76B21721D31A4B00ADF2C9 /* ThirdFramework */,
+				CAED562320EF3D0C004E3C2F /* Security */,
+				CAE82DDB20EB6310002D0267 /* Const */,
+				CAE82DD820EB4955002D0267 /* Sequence */,
+				CADEEE7220EB1F620034662E /* Extension */,
+				CADEEE6E20EB12FE0034662E /* BaseClass */,
+				CA671DF720E6310400C42CA6 /* Database */,
+				CA024C0420E5DA4200618162 /* Bridge */,
+				CA93F49020E4DD77005849D8 /* Router */,
+				CA46408820E23179004DE6DF /* Core */,
+				CA3BD66420DCA08200DD51AB /* Tools */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		CA3BD66420DCA08200DD51AB /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1A90F62621D4F75E00CD9D64 /* PushView */,
+				CAC9EB9D21829BA300EE5BCC /* MTTCameraController */,
+				CABDCCD521756ECD0065E8DE /* ReportView */,
+				CAFCA086212EAAF900457CA3 /* PhotoListView */,
+				CAE2867D212A43DE009D0996 /* MTTCollectionViewFlowLayout */,
+				CA890E65211A80C2001A0F63 /* PhotoPicker */,
+				1A8F15EA21168A5D00BA6E9B /* Transition */,
+				1A60C24C21132605001ED151 /* PhotoBrowser */,
+				CA8F45FF2109C7F900F4032C /* ErrorPlaceView */,
+				CA9BA82B20FED998003307CB /* Runtime */,
+				CA2411B320FD8FCD00DED35B /* RegularMacth */,
+				CAA589A420E07CBE00F3D68F /* MTTNetworkManager */,
+				CA3BD66520DCA08800DD51AB /* DeviceInfo */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CA3BD66520DCA08800DD51AB /* DeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				CA3BD66620DCA0C500DD51AB /* MTTDeviceInfoManager.swift */,
+			);
+			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		CA46408820E23179004DE6DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CAED55D820EDBB42004E3C2F /* Superior(上级) */,
+				CAED55DB20EDBDAC004E3C2F /* Model */,
+				CAED55D720EDBA3F004E3C2F /* Assistant(助手) */,
+				CAFB1E7C20ECA4700063D824 /* ImplementerManager(实施管理者) */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CA559B9221815647000B2EE3 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CA559B9421815681000B2EE3 /* objects.txt */,
+				CA559B9321815681000B2EE3 /* trained_data.tflite */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		CA656E752134DF1300B9589B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA656E762134DF2B00B9589B /* MTTPopularScienceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA671DF720E6310400C42CA6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CA671DF820E6312800C42CA6 /* MTTRealm.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CA76B21721D31A4B00ADF2C9 /* ThirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CA76B21821D31A6100ADF2C9 /* DingTalk */,
+			);
+			path = ThirdFramework;
+			sourceTree = "<group>";
+		};
+		CA76B21821D31A6100ADF2C9 /* DingTalk */ = {
+			isa = PBXGroup;
+			children = (
+				CA76B21921D31A7700ADF2C9 /* DTShareKit.framework */,
+			);
+			path = DingTalk;
+			sourceTree = "<group>";
+		};
+		CA7A2C6721893176002BE656 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				CA7A2C68218931C5002BE656 /* MTTPetRecogniseDataInfo.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		CA7D69EB21ACDFE200AF2240 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1AC1119121ACB4DF00A37243 /* MTTCommentTopCell.swift */,
+				CA7D69F721AD2E2C00AF2240 /* MTTCommentListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CA7D69EC21ACDFEC00AF2240 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D69ED21ACE00500AF2240 /* MTTCommentInputView.swift */,
+				CAF9527C21CB1B9F008BA95C /* MTTCommentMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA7D69F121AD0CEC00AF2240 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D69F221AD0D0000AF2240 /* MTTCommentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA7D69F421AD12B600AF2240 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA7D69F521AD12CC00AF2240 /* MTTCommentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA87B30920C8AE1200BC7149 = {
+			isa = PBXGroup;
+			children = (
+				CA87B31420C8AE1200BC7149 /* PetGroup */,
+				CA87B32920C8AE1200BC7149 /* PetGroupTests */,
+				CA87B33420C8AE1200BC7149 /* PetGroupUITests */,
+				CA87B31320C8AE1200BC7149 /* Products */,
+				94DAEDEFFBE9F92B2B2C7260 /* Pods */,
+				991E589F1068DAC356849CA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA87B31320C8AE1200BC7149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B31220C8AE1200BC7149 /* PetGroup.app */,
+				CA87B32620C8AE1200BC7149 /* PetGroupTests.xctest */,
+				CA87B33120C8AE1200BC7149 /* PetGroupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA87B31420C8AE1200BC7149 /* PetGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1A442E4A21CF7AC500EBCF6B /* README.md */,
+				1AC84236212463F6000DFA32 /* PetGroup.entitlements */,
+				CA01417F21ABD689002C8101 /* ApplicationLayer */,
+				CA87B34420C8B0B800BC7149 /* Main(入口) */,
+				CA87B34720C8B2B000BC7149 /* CommonConfig(通用配置) */,
+				CA3BD66320DCA07300DD51AB /* Commons */,
+				CA87B34320C8B08F00BC7149 /* Modules(模块) */,
+			);
+			path = PetGroup;
+			sourceTree = "<group>";
+		};
+		CA87B32920C8AE1200BC7149 /* PetGroupTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B32A20C8AE1200BC7149 /* PetGroupTests.swift */,
+				CA87B32C20C8AE1200BC7149 /* Info.plist */,
+			);
+			path = PetGroupTests;
+			sourceTree = "<group>";
+		};
+		CA87B33420C8AE1200BC7149 /* PetGroupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B33520C8AE1200BC7149 /* PetGroupUITests.swift */,
+				CA87B33720C8AE1200BC7149 /* Info.plist */,
+			);
+			path = PetGroupUITests;
+			sourceTree = "<group>";
+		};
+		CA87B34320C8B08F00BC7149 /* Modules(模块) */ = {
+			isa = PBXGroup;
+			children = (
+				1AA93C0A2180922800145652 /* PetRecognise */,
+				1A469D8E21001F2300A9F3F6 /* Personal */,
+				1A469D8A2100145F00A9F3F6 /* PopularScience */,
+				CABFBAB120F8A46B00925997 /* Circle */,
+				CAFB1E7D20ECAD020063D824 /* LaunchProgress */,
+				CA3BD66120DC9D3E00DD51AB /* WelcomePage */,
+				CA87B34520C8B10C00BC7149 /* Login&Register(登录注册) */,
+			);
+			path = "Modules(模块)";
+			sourceTree = "<group>";
+		};
+		CA87B34420C8B0B800BC7149 /* Main(入口) */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B31520C8AE1200BC7149 /* AppDelegate.swift */,
+				CA87B31920C8AE1200BC7149 /* Main.storyboard */,
+				CA87B31C20C8AE1200BC7149 /* Assets.xcassets */,
+				CA87B31E20C8AE1200BC7149 /* LaunchScreen.storyboard */,
+				CA87B32120C8AE1200BC7149 /* Info.plist */,
+			);
+			path = "Main(入口)";
+			sourceTree = "<group>";
+		};
+		CA87B34520C8B10C00BC7149 /* Login&Register(登录注册) */ = {
+			isa = PBXGroup;
+			children = (
+				CA95C52F2101673D00DE7BAF /* Model */,
+				CA2411B620FD915300DED35B /* Const */,
+				CA2411B220FD7F4000DED35B /* ViewModel */,
+				CAC3734720FC735F0041E78C /* Service */,
+				CA024C5A20E5FF9100618162 /* Target */,
+				CA87B34620C8B13100BC7149 /* Controller */,
+			);
+			path = "Login&Register(登录注册)";
+			sourceTree = "<group>";
+		};
+		CA87B34620C8B13100BC7149 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B35420C8C33C00BC7149 /* MTTLoginRegisterModuleController.swift */,
+				1AE8D74B2158E94D0055152B /* MTTUserAgreementViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CA87B34720C8B2B000BC7149 /* CommonConfig(通用配置) */ = {
+			isa = PBXGroup;
+			children = (
+				CA87B35620C8C40400BC7149 /* MTTCommonConfig.swift */,
+			);
+			path = "CommonConfig(通用配置)";
+			sourceTree = "<group>";
+		};
+		CA890E65211A80C2001A0F63 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CA890E66211A80F4001A0F63 /* MTTPhotoPicker.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		CA8F45FF2109C7F900F4032C /* ErrorPlaceView */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F46002109C87E00F4032C /* MTTPlaceView.swift */,
+			);
+			path = ErrorPlaceView;
+			sourceTree = "<group>";
+		};
+		CA93F49020E4DD77005849D8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				CA024C5920E5FF6700618162 /* RouterCategory */,
+				CA024C0620E5DA7000618162 /* MTTMediator.h */,
+				CA024C0720E5DA7000618162 /* MTTMediator.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		CA95C52F2101673D00DE7BAF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA95C5302101678A00DE7BAF /* MTTUserInfoManager.swift */,
+				CA95C5322101694700DE7BAF /* MTTLoginInfoTable.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA95C534210189F000DE7BAF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA95C53521018A0E00DE7BAF /* MTTCircleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA95C5372101925A00DE7BAF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CA95C5382101926F00DE7BAF /* MTTCircleService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CA9BA82B20FED998003307CB /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				CA9BA82C20FED9E1003307CB /* MTTRuntimeManager.swift */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		CAA1C5DA20F8A6FE00AF59D3 /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				CAA1C5DB20F8A73300AF59D3 /* Target_CircleViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		CAA589A420E07CBE00F3D68F /* MTTNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				CAA589A720E0B49900F3D68F /* Reachability.swift */,
+				CAA589A520E07D0C00F3D68F /* MTTNetworkManager.swift */,
+			);
+			path = MTTNetworkManager;
+			sourceTree = "<group>";
+		};
+		CABDCCD521756ECD0065E8DE /* ReportView */ = {
+			isa = PBXGroup;
+			children = (
+				CABDCCD821756F330065E8DE /* MTTReportView.swift */,
+			);
+			path = ReportView;
+			sourceTree = "<group>";
+		};
+		CABFBAB120F8A46B00925997 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				1AC8D2712110826B00A5C978 /* PublishDynamic */,
+				CAD1C2EA2105A10000FD3BA1 /* Model */,
+				CAD1C2E3210565BB00FD3BA1 /* View */,
+				CA95C5372101925A00DE7BAF /* Service */,
+				CA95C534210189F000DE7BAF /* ViewModel */,
+				CAA1C5DA20F8A6FE00AF59D3 /* Target */,
+				CABFBAB220F8A4EB00925997 /* Controller */,
+			);
+			path = Circle;
+			sourceTree = "<group>";
+		};
+		CABFBAB220F8A4EB00925997 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAA1C5D520F8A58600AF59D3 /* MTTCircleViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAC3734720FC735F0041E78C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CAC3734820FC738B0041E78C /* MTTLoginRegisterService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CAC9EB9D21829BA300EE5BCC /* MTTCameraController */ = {
+			isa = PBXGroup;
+			children = (
+				CAC9EB9E21829D3200EE5BCC /* MTTCameraController.swift */,
+			);
+			path = MTTCameraController;
+			sourceTree = "<group>";
+		};
+		CAD1C2E3210565BB00FD3BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A442E4C21CF7D2100EBCF6B /* View */,
+				CAD1C2E4210565C400FD3BA1 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAD1C2E4210565C400FD3BA1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1C2E52105663C00FD3BA1 /* MTTCircleCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CAD1C2EA2105A10000FD3BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1C2EB2105A12800FD3BA1 /* MTTCircleModel.swift */,
+				1AD656862130E47200BCA957 /* MTTPublishDynamicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAD7FC4D2112A72000EA9FA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7FC4E2112A72400EA9FA2 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAD7FC4E2112A72400EA9FA2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7FC4F2112A74000EA9FA2 /* MTTPublishImageCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CADEEE6B20EB100F0034662E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CADEEE6C20EB10270034662E /* MTTWelcomePageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CADEEE6E20EB12FE0034662E /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				CADEEE6F20EB13130034662E /* MTTViewController.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		CADEEE7220EB1F620034662E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CA6F6345218C155B00FCC1DE /* UIView+Rotate.h */,
+				CA6F6344218C155B00FCC1DE /* UIView+Rotate.m */,
+				CADEEE7320EB1F7E0034662E /* MTTUIColorExtension.swift */,
+				CAB03FDA20FC915600E6087C /* MTTUIImageExtension.swift */,
+				CA54D6EF20FDEBD700A2E55C /* MTTUIViewExtension.swift */,
+				CA9BA82920FED169003307CB /* MTTUIButtonExtension.swift */,
+				1A6741652100C18100A0AC3D /* MTTStringExtension.swift */,
+				1A1CBDC021048A54000894DF /* MTTUIViewControllerExtension.swift */,
+				1A1CBDC82104C167000894DF /* MTTUINavigationControllerExtension.swift */,
+				1A60C25021133C8E001ED151 /* MTTUIImageViewExtension.swift */,
+				1A29DE54212C455200B7A098 /* MTTDateExtension.swift */,
+				1AD2E79C21907557006398C4 /* MTTNSObjectExtension.swift */,
+				CA7D69EF21ACF4B500AF2240 /* MTTUITextViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CAE1041C20E9BF73004DC78B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1042020E9BFB0004DC78B /* MTTPetGroupInfoModel.swift */,
+				CAE82DD620EB272C002D0267 /* MTTWelcomePageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAE1041D20E9BF81004DC78B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA3BD6A620DCF60800DD51AB /* MTTWelcomePageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAE1042220E9C4B6004DC78B /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1042320E9C4C9004DC78B /* MTTWelcomePageInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		CAE1042520E9C564004DC78B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1042620E9C573004DC78B /* MTTWelcomePageManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CAE1042B20EA2604004DC78B /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				CAE1042C20EA2629004DC78B /* Target_WelcomePageViewController.swift */,
+			);
+			path = Target;
+			sourceTree = "<group>";
+		};
+		CAE2867D212A43DE009D0996 /* MTTCollectionViewFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				CAE2867E212A4416009D0996 /* MTTCollectionViewFlowLayout.swift */,
+			);
+			path = MTTCollectionViewFlowLayout;
+			sourceTree = "<group>";
+		};
+		CAE82DD320EB269C002D0267 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAE82DD420EB26AE002D0267 /* MTTWelcomePageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAE82DD820EB4955002D0267 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				CAE82DD920EB4A71002D0267 /* MTTSequence.swift */,
+			);
+			path = Sequence;
+			sourceTree = "<group>";
+		};
+		CAE82DDB20EB6310002D0267 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				CAE82DDC20EB631F002D0267 /* MTTConst.swift */,
+				CA9BA86820FF1675003307CB /* MTTServerAPIConst.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		CAED55D720EDBA3F004E3C2F /* Assistant(助手) */ = {
+			isa = PBXGroup;
+			children = (
+				CAED55E720EDFE79004E3C2F /* MTTAssistantManager.swift */,
+			);
+			path = "Assistant(助手)";
+			sourceTree = "<group>";
+		};
+		CAED55D820EDBB42004E3C2F /* Superior(上级) */ = {
+			isa = PBXGroup;
+			children = (
+				CAED55D920EDBCB4004E3C2F /* MTTSuperiorManager.swift */,
+			);
+			path = "Superior(上级)";
+			sourceTree = "<group>";
+		};
+		CAED55DB20EDBDAC004E3C2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAED55DC20EDBDD1004E3C2F /* MTTBaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAED55DE20EDBE5D004E3C2F /* ConcreteImplementer(任务具体实施者)  */ = {
+			isa = PBXGroup;
+			children = (
+				CA46408D20E2354F004DE6DF /* MTTArmManager.swift */,
+				CA93F48E20E36D44005849D8 /* MTTLegManager.swift */,
+				CAFB1E7A20ECA20F0063D824 /* MTTFingerManager.swift */,
+				CAED55E320EDFB6C004E3C2F /* MTTLeftHandManager.swift */,
+				CAED55E520EDFB7A004E3C2F /* MTTRigthHandManager.swift */,
+			);
+			path = "ConcreteImplementer(任务具体实施者) ";
+			sourceTree = "<group>";
+		};
+		CAED55DF20EDBFA4004E3C2F /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CA93F48620E33E4A005849D8 /* MTTLaunchInterface.swift */,
+				CAED55E120EDC1FC004E3C2F /* MTTUserIdentityInterface.swift */,
+				1A67416321008C1200A0AC3D /* MTTAssistantInterface.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		CAED562320EF3D0C004E3C2F /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				CAED562420EF3D38004E3C2F /* MTTSecurityManager.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		CAFB1E7C20ECA4700063D824 /* ImplementerManager(实施管理者) */ = {
+			isa = PBXGroup;
+			children = (
+				CA93F48420E318D0005849D8 /* MTTTaskCenter.swift */,
+				CA46408920E231CB004DE6DF /* MTTBrainManager.swift */,
+				CAED55DF20EDBFA4004E3C2F /* Interface */,
+				CAED55DE20EDBE5D004E3C2F /* ConcreteImplementer(任务具体实施者)  */,
+			);
+			path = "ImplementerManager(实施管理者)";
+			sourceTree = "<group>";
+		};
+		CAFB1E7D20ECAD020063D824 /* LaunchProgress */ = {
+			isa = PBXGroup;
+			children = (
+				1A46EB352156132C007857CB /* Model */,
+				CAFB1E8420ECC5110063D824 /* Controller */,
+				CAFB1E8120ECAE240063D824 /* Intreface */,
+				CAFB1E7E20ECAD310063D824 /* View */,
+			);
+			path = LaunchProgress;
+			sourceTree = "<group>";
+		};
+		CAFB1E7E20ECAD310063D824 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB1E7F20ECAD640063D824 /* MTTLaunchProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAFB1E8120ECAE240063D824 /* Intreface */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB1E8220ECAE3D0063D824 /* MTTProgressInterface.swift */,
+			);
+			path = Intreface;
+			sourceTree = "<group>";
+		};
+		CAFB1E8420ECC5110063D824 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAFB1E8520ECC52E0063D824 /* MTTLauchProgressController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAFCA086212EAAF900457CA3 /* PhotoListView */ = {
+			isa = PBXGroup;
+			children = (
+				CAFCA087212EAB2500457CA3 /* MTTPhotoListView.swift */,
+			);
+			path = PhotoListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA87B31120C8AE1200BC7149 /* PetGroup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA87B33A20C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroup" */;
+			buildPhases = (
+				AA32D6DFA1B41CD9D5E371C2 /* [CP] Check Pods Manifest.lock */,
+				CA87B30E20C8AE1200BC7149 /* Sources */,
+				CA87B30F20C8AE1200BC7149 /* Frameworks */,
+				CA87B31020C8AE1200BC7149 /* Resources */,
+				AEF969E0C3404817F45EDD85 /* [CP] Embed Pods Frameworks */,
+				BE4A4BFAAFF2BAF1960EE870 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetGroup;
+			productName = PetGroup;
+			productReference = CA87B31220C8AE1200BC7149 /* PetGroup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA87B32520C8AE1200BC7149 /* PetGroupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA87B33D20C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroupTests" */;
+			buildPhases = (
+				43E3E09D2FE8512838A78CF6 /* [CP] Check Pods Manifest.lock */,
+				CA87B32220C8AE1200BC7149 /* Sources */,
+				CA87B32320C8AE1200BC7149 /* Frameworks */,
+				CA87B32420C8AE1200BC7149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA87B32820C8AE1200BC7149 /* PBXTargetDependency */,
+			);
+			name = PetGroupTests;
+			productName = PetGroupTests;
+			productReference = CA87B32620C8AE1200BC7149 /* PetGroupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA87B33020C8AE1200BC7149 /* PetGroupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA87B34020C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroupUITests" */;
+			buildPhases = (
+				6D01D725F61861F7D05C8A7D /* [CP] Check Pods Manifest.lock */,
+				CA87B32D20C8AE1200BC7149 /* Sources */,
+				CA87B32E20C8AE1200BC7149 /* Frameworks */,
+				CA87B32F20C8AE1200BC7149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA87B33320C8AE1200BC7149 /* PBXTargetDependency */,
+			);
+			name = PetGroupUITests;
+			productName = PetGroupUITests;
+			productReference = CA87B33120C8AE1200BC7149 /* PetGroupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA87B30A20C8AE1200BC7149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = waitWalker;
+				TargetAttributes = {
+					CA87B31120C8AE1200BC7149 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CA87B32520C8AE1200BC7149 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA87B31120C8AE1200BC7149;
+					};
+					CA87B33020C8AE1200BC7149 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA87B31120C8AE1200BC7149;
+					};
+				};
+			};
+			buildConfigurationList = CA87B30D20C8AE1200BC7149 /* Build configuration list for PBXProject "PetGroup" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = CA87B30920C8AE1200BC7149;
+			productRefGroup = CA87B31320C8AE1200BC7149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA87B31120C8AE1200BC7149 /* PetGroup */,
+				CA87B32520C8AE1200BC7149 /* PetGroupTests */,
+				CA87B33020C8AE1200BC7149 /* PetGroupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA87B31020C8AE1200BC7149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A442E4B21CF7AC500EBCF6B /* README.md in Resources */,
+				CA87B32020C8AE1200BC7149 /* LaunchScreen.storyboard in Resources */,
+				CA87B31D20C8AE1200BC7149 /* Assets.xcassets in Resources */,
+				CA559B9621815681000B2EE3 /* objects.txt in Resources */,
+				CA87B31B20C8AE1200BC7149 /* Main.storyboard in Resources */,
+				CA559B9521815681000B2EE3 /* trained_data.tflite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32420C8AE1200BC7149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32F20C8AE1200BC7149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43E3E09D2FE8512838A78CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetGroupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D01D725F61861F7D05C8A7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetGroupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA32D6DFA1B41CD9D5E371C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PetGroup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEF969E0C3404817F45EDD85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetGroup/Pods-PetGroup-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HappyDNS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Qiniu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetGroup/Pods-PetGroup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4A4BFAAFF2BAF1960EE870 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PetGroup/Pods-PetGroup-resources.sh",
+				"${PODS_ROOT}/UMCCommonLog/UMCommonLog/UMCommonLog.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMCommonLog.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PetGroup/Pods-PetGroup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA87B30E20C8AE1200BC7149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC3734920FC738B0041E78C /* MTTLoginRegisterService.swift in Sources */,
+				CA7D69EE21ACE00500AF2240 /* MTTCommentInputView.swift in Sources */,
+				CA559BAD2181BE6A000B2EE3 /* MTTPetRecogniseHandler.mm in Sources */,
+				CAE1042420E9C4C9004DC78B /* MTTWelcomePageInterface.swift in Sources */,
+				1AD92B73218D3B1500B1777F /* MTTWaterWaveView.m in Sources */,
+				1A29DE57212C470A00B7A098 /* MTTNormalCardCell.swift in Sources */,
+				CA656E772134DF2B00B9589B /* MTTPopularScienceModel.swift in Sources */,
+				CA3C4C9F21081792000920B5 /* MTTMediator+RegisterTargetAction.m in Sources */,
+				CA7D69F621AD12CC00AF2240 /* MTTCommentViewModel.swift in Sources */,
+				CAED55DD20EDBDD1004E3C2F /* MTTBaseModel.swift in Sources */,
+				CAFCA088212EAB2500457CA3 /* MTTPhotoListView.swift in Sources */,
+				CAD1C2EC2105A12800FD3BA1 /* MTTCircleModel.swift in Sources */,
+				1A60C25121133C8E001ED151 /* MTTUIImageViewExtension.swift in Sources */,
+				1A29DE51212C446E00B7A098 /* MTTPetGroupCardCell.swift in Sources */,
+				CA01418321ABDB9E002C8101 /* MTTCommentDetailBaseViewController.swift in Sources */,
+				CA87B35520C8C33C00BC7149 /* MTTLoginRegisterModuleController.swift in Sources */,
+				1AD656912132D2B600BCA957 /* MTTPersonalViewModel.swift in Sources */,
+				1A6C1A5C212AF9A200802BDB /* MTTPopularCell.swift in Sources */,
+				CA95C53621018A0E00DE7BAF /* MTTCircleViewModel.swift in Sources */,
+				CAD1C2E62105663C00FD3BA1 /* MTTCircleCell.swift in Sources */,
+				CAA1C5D620F8A58600AF59D3 /* MTTCircleViewController.swift in Sources */,
+				CA93F48F20E36D44005849D8 /* MTTLegManager.swift in Sources */,
+				CA3C4C9C210816CE000920B5 /* Target_RegisterViewController.swift in Sources */,
+				CADEEE7020EB13130034662E /* MTTViewController.swift in Sources */,
+				CA3BD66720DCA0C500DD51AB /* MTTDeviceInfoManager.swift in Sources */,
+				CA95C5392101926F00DE7BAF /* MTTCircleService.swift in Sources */,
+				1A6741662100C18100A0AC3D /* MTTStringExtension.swift in Sources */,
+				CA6F6346218C155C00FCC1DE /* UIView+Rotate.m in Sources */,
+				CAE1042720E9C573004DC78B /* MTTWelcomePageManager.swift in Sources */,
+				CABDCCD921756F330065E8DE /* MTTReportView.swift in Sources */,
+				1A8F15EC21168A8A00BA6E9B /* MTTAnimatorTransition.swift in Sources */,
+				CAE1042A20EA25F4004DC78B /* MTTMediator+WelcomePageTargetAction.m in Sources */,
+				CA7D69F821AD2E2C00AF2240 /* MTTCommentListCell.swift in Sources */,
+				CA7A2C69218931C5002BE656 /* MTTPetRecogniseDataInfo.swift in Sources */,
+				CA890E67211A80F4001A0F63 /* MTTPhotoPicker.swift in Sources */,
+				CA95C5312101678A00DE7BAF /* MTTUserInfoManager.swift in Sources */,
+				CAED55DA20EDBCB4004E3C2F /* MTTSuperiorManager.swift in Sources */,
+				1A29DE55212C455200B7A098 /* MTTDateExtension.swift in Sources */,
+				CA93F48520E318D0005849D8 /* MTTTaskCenter.swift in Sources */,
+				1A67415E21002B5800A0AC3D /* MTTMediator+PersonalTargetAction.m in Sources */,
+				CAFB1E8020ECAD640063D824 /* MTTLaunchProgressView.swift in Sources */,
+				CAED55E420EDFB6C004E3C2F /* MTTLeftHandManager.swift in Sources */,
+				1AD6568A2130FBAE00BCA957 /* MTTPublishDynamicViewModel.swift in Sources */,
+				CA024C0820E5DA7000618162 /* MTTMediator.m in Sources */,
+				CAED55E220EDC1FC004E3C2F /* MTTUserIdentityInterface.swift in Sources */,
+				CA2411B820FD916600DED35B /* MTTLoginRegisterConst.swift in Sources */,
+				1AA93C0D2180933600145652 /* MTTPetRecogniseViewController.swift in Sources */,
+				CA95C5332101694700DE7BAF /* MTTLoginInfoTable.swift in Sources */,
+				CA2DD8D421D4C31F0054B13C /* MTTPushView.swift in Sources */,
+				CAE1042120E9BFB0004DC78B /* MTTPetGroupInfoModel.swift in Sources */,
+				1A29DE53212C44C100B7A098 /* MTTCardCell.swift in Sources */,
+				CAA1C5D920F8A66000AF59D3 /* MTTMediator+CircleTargetAction.m in Sources */,
+				CAC9EB9F21829D3200EE5BCC /* MTTCameraController.swift in Sources */,
+				CAD7FC502112A74000EA9FA2 /* MTTPublishImageCell.swift in Sources */,
+				1AD2E79D21907557006398C4 /* MTTNSObjectExtension.swift in Sources */,
+				1A6741522100285400A0AC3D /* Target_PersonalViewController.swift in Sources */,
+				CAA589A620E07D0C00F3D68F /* MTTNetworkManager.swift in Sources */,
+				1A1CBDC121048A54000894DF /* MTTUIViewControllerExtension.swift in Sources */,
+				CA8F46012109C87E00F4032C /* MTTPlaceView.swift in Sources */,
+				CA024C5E20E5FFFA00618162 /* Target_LoginRegisterViewController.swift in Sources */,
+				1A67415B2100298D00A0AC3D /* Target_PopularScienceViewController.swift in Sources */,
+				CAFB1E8320ECAE3D0063D824 /* MTTProgressInterface.swift in Sources */,
+				CA671DF920E6312800C42CA6 /* MTTRealm.swift in Sources */,
+				CA9BA82A20FED169003307CB /* MTTUIButtonExtension.swift in Sources */,
+				CA31F14D20FD80CE003BD552 /* MTTLoginViewModel.swift in Sources */,
+				CAFB1E8620ECC52E0063D824 /* MTTLauchProgressController.swift in Sources */,
+				1A6741562100294800A0AC3D /* MTTPopularScienceViewController.swift in Sources */,
+				1A46EB3721561373007857CB /* MTTLaunchProgressViewModel.swift in Sources */,
+				CAE82DDA20EB4A71002D0267 /* MTTSequence.swift in Sources */,
+				1AC1119221ACB4DF00A37243 /* MTTCommentTopCell.swift in Sources */,
+				CAE82DD520EB26AE002D0267 /* MTTWelcomePageViewModel.swift in Sources */,
+				1A1CBDC92104C167000894DF /* MTTUINavigationControllerExtension.swift in Sources */,
+				CA46408A20E231CB004DE6DF /* MTTBrainManager.swift in Sources */,
+				1A67416121002C3D00A0AC3D /* MTTMediator+PopularScienceTargetAction.m in Sources */,
+				CA7D69F021ACF4B500AF2240 /* MTTUITextViewExtension.swift in Sources */,
+				CA54D6F020FDEBD700A2E55C /* MTTUIViewExtension.swift in Sources */,
+				CA46408E20E2354F004DE6DF /* MTTArmManager.swift in Sources */,
+				CAE82DD720EB272C002D0267 /* MTTWelcomePageModel.swift in Sources */,
+				CAB03FDB20FC915600E6087C /* MTTUIImageExtension.swift in Sources */,
+				CAED55E820EDFE79004E3C2F /* MTTAssistantManager.swift in Sources */,
+				1A674154210028D600A0AC3D /* MTTPersonalViewController.swift in Sources */,
+				1A6C1A60212B01C200802BDB /* MTTPopularScienceDetailViewController.swift in Sources */,
+				CA3BD6A720DCF60800DD51AB /* MTTWelcomePageController.swift in Sources */,
+				1AE885CC2185ABE300A48C10 /* MTTPetRecogniseModel.swift in Sources */,
+				1A67416421008C1200A0AC3D /* MTTAssistantInterface.swift in Sources */,
+				CAE82DDD20EB631F002D0267 /* MTTConst.swift in Sources */,
+				CA93F48720E33E4A005849D8 /* MTTLaunchInterface.swift in Sources */,
+				CADEEE7420EB1F7E0034662E /* MTTUIColorExtension.swift in Sources */,
+				CA9BA86920FF1675003307CB /* MTTServerAPIConst.swift in Sources */,
+				CA9BA82D20FED9E1003307CB /* MTTRuntimeManager.swift in Sources */,
+				1AE8D74C2158E94D0055152B /* MTTUserAgreementViewController.swift in Sources */,
+				CA024C6120E6021500618162 /* MTTMediator+LoginRegisterTargetAction.m in Sources */,
+				CA87B35720C8C40500BC7149 /* MTTCommonConfig.swift in Sources */,
+				CA7D69F321AD0D0000AF2240 /* MTTCommentModel.swift in Sources */,
+				CAE2867F212A4416009D0996 /* MTTCollectionViewFlowLayout.swift in Sources */,
+				CAA589A820E0B49900F3D68F /* Reachability.swift in Sources */,
+				CAFB1E7B20ECA20F0063D824 /* MTTFingerManager.swift in Sources */,
+				1A60C24F2113266A001ED151 /* MTTPhotoBrowser.swift in Sources */,
+				1AD656872130E47200BCA957 /* MTTPublishDynamicModel.swift in Sources */,
+				1AC8D274211082A900A5C978 /* MTTPublishDynamicViewController.swift in Sources */,
+				CAF9527D21CB1B9F008BA95C /* MTTCommentMenuView.swift in Sources */,
+				CAED562520EF3D38004E3C2F /* MTTSecurityManager.swift in Sources */,
+				CA87B31620C8AE1200BC7149 /* AppDelegate.swift in Sources */,
+				CA2411B520FD900E00DED35B /* MTTRegularMatchManager.swift in Sources */,
+				CADEEE6D20EB10270034662E /* MTTWelcomePageView.swift in Sources */,
+				CA01418621ABDC47002C8101 /* MTTCommentDetailRouter.swift in Sources */,
+				CAA1C5DC20F8A73300AF59D3 /* Target_CircleViewController.swift in Sources */,
+				1A442E4E21CF7EB000EBCF6B /* MTTCircleBoardView.swift in Sources */,
+				CAE1042D20EA2629004DC78B /* Target_WelcomePageViewController.swift in Sources */,
+				CAED55E620EDFB7A004E3C2F /* MTTRigthHandManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32220C8AE1200BC7149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA87B32B20C8AE1200BC7149 /* PetGroupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA87B32D20C8AE1200BC7149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA87B33620C8AE1200BC7149 /* PetGroupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA87B32820C8AE1200BC7149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA87B31120C8AE1200BC7149 /* PetGroup */;
+			targetProxy = CA87B32720C8AE1200BC7149 /* PBXContainerItemProxy */;
+		};
+		CA87B33320C8AE1200BC7149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA87B31120C8AE1200BC7149 /* PetGroup */;
+			targetProxy = CA87B33220C8AE1200BC7149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA87B31920C8AE1200BC7149 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA87B31A20C8AE1200BC7149 /* Base */,
+				CAD7FC492112A19800EA9FA2 /* zh-Hans */,
+				CAD7FC4B2112A1A500EA9FA2 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA87B31E20C8AE1200BC7149 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA87B31F20C8AE1200BC7149 /* Base */,
+				CAD7FC4A2112A19800EA9FA2 /* zh-Hans */,
+				CAD7FC4C2112A1A600EA9FA2 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA87B33820C8AE1200BC7149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA87B33920C8AE1200BC7149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA87B33B20C8AE1200BC7149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FB8F7B70B1203044AE12C8 /* Pods-PetGroup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PetGroup/PetGroup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PetGroup/Commons/ThirdFramework/DingTalk",
+				);
+				INFOPLIST_FILE = "PetGroup/Main(入口)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.petgroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetGroup/Commons/Bridge/PetGroup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA87B33C20C8AE1200BC7149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496812036C119981D8F669E9 /* Pods-PetGroup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PetGroup/PetGroup.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PetGroup/Commons/ThirdFramework/DingTalk",
+				);
+				INFOPLIST_FILE = "PetGroup/Main(入口)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"HandyJSON\"",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SnapKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.petgroup;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetGroup/Commons/Bridge/PetGroup-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA87B33E20C8AE1200BC7149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E310317420485B9D270B754 /* Pods-PetGroupTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				INFOPLIST_FILE = PetGroupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.PetGroupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroup.app/PetGroup";
+			};
+			name = Debug;
+		};
+		CA87B33F20C8AE1200BC7149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB7882558CE6889540B6FF6 /* Pods-PetGroupTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				INFOPLIST_FILE = PetGroupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.PetGroupTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetGroup.app/PetGroup";
+			};
+			name = Release;
+		};
+		CA87B34120C8AE1200BC7149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB67D81FC22EF95DB2C07D3 /* Pods-PetGroupUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				INFOPLIST_FILE = PetGroupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.PetGroupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroup;
+			};
+			name = Debug;
+		};
+		CA87B34220C8AE1200BC7149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CABDE5DEE9A9E213C4E4B4 /* Pods-PetGroupUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5J27ZQZQ;
+				INFOPLIST_FILE = PetGroupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.waitwalker.PetGroupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetGroup;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA87B30D20C8AE1200BC7149 /* Build configuration list for PBXProject "PetGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA87B33820C8AE1200BC7149 /* Debug */,
+				CA87B33920C8AE1200BC7149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA87B33A20C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA87B33B20C8AE1200BC7149 /* Debug */,
+				CA87B33C20C8AE1200BC7149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA87B33D20C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA87B33E20C8AE1200BC7149 /* Debug */,
+				CA87B33F20C8AE1200BC7149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA87B34020C8AE1200BC7149 /* Build configuration list for PBXNativeTarget "PetGroupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA87B34120C8AE1200BC7149 /* Debug */,
+				CA87B34220C8AE1200BC7149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA87B30A20C8AE1200BC7149 /* Project object */;
+}
